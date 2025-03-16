@@ -1,0 +1,238 @@
+
+
+
+
+
+
+body{
+    background-size:cover;
+    height: 100%;
+    margin:0px;
+    color:black ;
+  font-family: "Playwrite GB S", cursive;
+  font-style: normal;
+  font-size: medium;
+}
+
+nav{
+    background-color: white;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    top: 0%;
+}
+
+nav ul{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    justify-content: center;
+}
+
+nav li{
+    list-style: none;
+   justify-content: center;
+
+}
+
+
+nav a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+
+
+}
+nav a:hover{
+    background-color: rgb(227, 224, 219);
+}
+
+
+
+.mains{
+    background-image: url(./images/fallon-michael-orVNEDAylaU-unsplash.jpg);
+    margin: 10px 10px;
+    height: 80vh; 
+    overflow: hidden;
+    background-size: cover;
+    font-size:120%;
+    letter-spacing: 2px;
+    font-weight:bold;
+    color:white;
+}
+#welcome{
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+
+#shimmer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    letter-spacing: 5px;
+    
+
+}
+#shop{
+    display:flex;
+    justify-content: center;
+    margin-left: 45%;
+    width: 100px;
+    background-color: darkred;
+    margin-bottom: 30%;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 2px darkred;
+    transition: all 0.5s;
+
+}
+.second{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+    margin-left: 50px;
+}
+.second li a{
+
+    text-decoration: none;
+    color:black
+}
+
+
+#All{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.containerpics1, .containerpics2, .containerpics3{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap:90px;
+    margin: 20px 20px 10px 20px;
+    padding: 15px 15px;
+    justify-content:space-between;
+    
+
+}
+
+.pics1, .pics2, .pics3{
+    justify-content: center;
+    border:2px solid rgb(224, 219, 219);
+   padding: 10px 10px 10px 10px; 
+   background-color:rgb(224, 219, 219) ;
+   border-radius:5px;
+
+
+
+}
+.pics1 img, .pics2 img, .pics3 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    transition: all 0.5s;
+   
+ 
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+.picscontent{
+    text-align: center;
+    justify-content: center;
+    margin-bottom:20px;
+}
+.remarkssection{
+    margin-top: 10%;
+}
+.remarks{
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 5px;
+}
+#remarker{
+    justify-content: center;
+    text-align: center;
+}
+.ending{
+    max-width: 100%;
+    font-size: medium;
+    flex-wrap: wrap;
+    background-color:rgb(224, 219, 219);
+    display:flex;
+   padding: 10px;
+    justify-content: space-between;
+}
+/* small media query */
+@media screen and (max-width:576px) {
+    nav ul{
+        gap:20px;
+        font-size: small;
+        letter-spacing: normal;
+        padding:10px;
+    }
+.mains{
+    width:100%;
+    height:50vh;
+}
+.shimmer{
+    margin-bottom:30%;
+}
+#shop{
+    width:100px;
+    margin-left: 40%;
+    font-size: 10px;
+}
+#welcome{
+    margin-top: 40%;
+    font-size: 15px;
+}
+.second{
+    display: flex;
+    gap:2px;
+    justify-content: left;
+    text-align: left;
+    margin: 0px;
+    font-size:10px;
+}
+.containerpics1, .containerpics2, .containerpics3{
+    display: flex;
+    margin:10px;
+    gap:10px;
+    margin:5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+}
+.pics1, .pics2, .pics3{
+    padding:1px 1px 1px 1px;
+
+}
+.pics1 img, .pics2 img, .pics3 img{
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+}
+.picscontent{
+    font-size: 10px;
+}
+.remarks{
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.ending, .remarker{
+    font-size:10px;
+}
+
+}
